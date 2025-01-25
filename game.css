@@ -1,0 +1,65 @@
+#follower {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  border: solid;
+  border: dashed aliceblue;
+  pointer-events: none;
+  border-radius: 20%;
+}
+
+body {
+  margin: 0;
+  height: 100vh; /* La hauteur du body sera égale à 100% de la hauteur de la fenêtre visible */
+  overflow-y: hidden;
+}
+
+.div1 {
+  border: solid;
+  border: dashed aliceblue;
+  position: fixed;
+}
+#element {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+body{
+  background-image: url("./img/underwater.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover; /* Pour couvrir toute la fenêtre avec l'image de fond */
+}
+#gohome{
+  display: block;
+  background-color: #87CEFA;
+  border-radius: 10px;
+  border: 4px #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 200px;
+  margin: 5px; 
+
+}
+#poisson1{
+  height: 50px;
+  width: 50px;
+}
+#poisson2{
+  height: 50px;
+  width: 50px;
+}
+#poisson3{
+  height: 50px;
+  width: 50px;
+}
+#poisson4{
+  height: 50px;
+  width: 50px;
+}
+.objets{
+  height: inherit;
+  width: inherit;
+}
